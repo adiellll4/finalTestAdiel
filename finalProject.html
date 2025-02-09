@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טופס פרטי לידה</title>
+</head>
+<body>
+
+    <h2>הזן את פרטי הלידה שלך</h2>
+    
+    <form action="#" method="post">
+        <label for="first_name">שם פרטי:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="birth_day">יום לידה:</label><br>
+        <input type="number" id="birth_day" name="birth_day" min="1" max="31" required><br><br>
+
+        <label for="birth_month">חודש לידה:</label><br>
+        <input type="number" id="birth_month" name="birth_month" min="1" max="12" required><br><br>
+
+        <label for="birth_year">שנת לידה:</label><br>
+        <input type="number" id="birth_year" name="birth_year" min="1900" max="2025" required><br><br>
+
+        <input type="submit" value="שלח">
+    </form>
+
+</body>
+</html>
